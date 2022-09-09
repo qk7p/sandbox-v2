@@ -1,0 +1,36 @@
+.mainPage {
+  flex-grow: 1;
+  width: 100%;
+  background-color: var(--background);
+  display: flex;
+  flex-direction: column;
+}
+
+.mainPage .body {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  flex-wrap: wrap;
+}
+
+.mainPage .leftblock {
+  display: flex;
+  flex-direction: column;
+  flex: 4;
+  padding: 15px 7px 0px 0px
+}
+
+.mainPage .rightblock {
+  display: flex;
+  flex-direction: column;
+  flex: 10;
+  padding: 15px 0px 0px 7px;
+}
+
+.panel {
+  padding: 12px;
+  background-color: white;
+  border-radius: 6px;
+  border: 1px solid var(--box-border);
+  margin-bottom: 15px;
+}

@@ -1,0 +1,10 @@
+.legendPanel {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.legendPanel .wrapper {
+  display: flex;
+  flex-direction: row;
+}

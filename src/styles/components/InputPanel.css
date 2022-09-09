@@ -1,0 +1,88 @@
+.inputPanel {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex: 1;
+}
+
+.inputPanel .inputBlock {
+  flex: 3;
+  display: flex;
+  flex-direction: row;
+  margin: 6px 0 24px 0;
+}
+
+.inputPanel .main {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+}
+
+.inputPanel .sub {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  max-width: 125px;
+}
+
+
+
+.inputPanel .buttonsBlock {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+}
+
+.inputPanel input {
+  border: 1px solid var(--box-border);
+  font-family: "Rubik", sans-serif;
+  border-radius: 4px;
+  margin: 6px;
+  outline: none;
+  padding: 6px;
+  height: 25px;
+}
+
+.inputPanel input::-webkit-outer-spin-button,
+.inputPanel input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.inputPanel input:hover {
+  border: 1px solid var(--blue);
+}
+
+.inputPanel input:focus-visible {
+  border: 1px solid var(--blue);
+}
+
+.inputPanel button {
+  margin: 6px;
+  height: 40px;
+
+  border-radius: 2px;
+
+  color: white;
+  font-family: inherit;
+  font-size: large;
+  letter-spacing: 0.1em;
+  cursor: pointer;
+  outline: none;
+}
+
+.inputPanel button:hover {
+  opacity: 0.9;
+}
+
+.inputPanel .primaryButton {
+  border: 1px solid var(--dark-green);
+  background-color: var(--green);
+}
+
+.inputPanel .secondaryButton {
+  max-width: 125px;
+  width: 113px;
+  border: 1px solid var(--orange);
+  background-color: var(--orange);
+}
